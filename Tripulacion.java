@@ -31,7 +31,7 @@ public class Tripulacion extends Thread {
         System.out.println("Caníbales a bordo: " + numCan);
         System.out.println("Misioneros a bordo: " + numMis);
 
-        if (numCan == 2 && numMis == 1) {
+        if (numCan == 1 && numMis == 2) {
             System.out.println("El caníbal ha saltado.");
         } else {
             System.out.println("¡Han cruzado!");
